@@ -9,3 +9,6 @@ C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.
 C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.exe
 C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.xml
 C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.pdb
+C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Form2.resources
+C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Form3.resources
+C:\Users\Mati\source\repos\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Form4.resources
