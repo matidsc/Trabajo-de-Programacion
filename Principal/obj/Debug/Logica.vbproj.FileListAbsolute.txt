@@ -1,0 +1,13 @@
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbprojAssemblyReference.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.GenerateResource.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Logica.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Logica.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Logica.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.Resources.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.CopyComplete

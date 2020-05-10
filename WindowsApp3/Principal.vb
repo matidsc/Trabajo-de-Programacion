@@ -1,5 +1,8 @@
-﻿Public Module Principal
+﻿
+Public Module Principal
+
     Private dtEmpleados As New DataTable
+
     Public Function getTiposEmpleados() As DataTable
 
         ' Creo la tabla fuera del Try 

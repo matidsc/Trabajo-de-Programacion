@@ -1,0 +1,21 @@
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe.config
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form1.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form2.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form3.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form4.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.exe
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml

@@ -28,7 +28,7 @@ Partial Class Form3
         Me.Button1 = New System.Windows.Forms.Button()
         Me.lbl_sueldo_base = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cboTIpoEmpleado = New System.Windows.Forms.ComboBox()
+        Me.cbo_tipo = New System.Windows.Forms.ComboBox()
         Me.txt_segundo_apellido = New System.Windows.Forms.TextBox()
         Me.lbl_segundo_apellido = New System.Windows.Forms.Label()
         Me.txt_primer_apellido = New System.Windows.Forms.TextBox()
@@ -44,16 +44,16 @@ Partial Class Form3
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txt_primer_nombre = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txt_sueldo = New System.Windows.Forms.TextBox()
         Me.pnlAdmin = New System.Windows.Forms.Panel()
-        Me.txtAdmin = New System.Windows.Forms.TextBox()
+        Me.txt_incentivo = New System.Windows.Forms.TextBox()
         Me.pnlCantHoras = New System.Windows.Forms.Panel()
-        Me.txtCantHoras = New System.Windows.Forms.TextBox()
-        Me.txtPrecioHora = New System.Windows.Forms.TextBox()
+        Me.txt_cant_horas = New System.Windows.Forms.TextBox()
+        Me.txt_precio_hora = New System.Windows.Forms.TextBox()
         Me.pnlPrecioHora = New System.Windows.Forms.Panel()
-        Me.txtGerente = New System.Windows.Forms.TextBox()
+        Me.txt_gerente = New System.Windows.Forms.TextBox()
         Me.pnlGerente = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblGerente = New System.Windows.Forms.Label()
@@ -72,11 +72,11 @@ Partial Class Form3
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(742, 0)
+        Me.Button2.Location = New System.Drawing.Point(742, -9)
         Me.Button2.Margin = New System.Windows.Forms.Padding(0)
         Me.Button2.Name = "Button2"
         Me.Button2.Padding = New System.Windows.Forms.Padding(1)
-        Me.Button2.Size = New System.Drawing.Size(29, 27)
+        Me.Button2.Size = New System.Drawing.Size(29, 36)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "_"
         Me.Button2.UseVisualStyleBackColor = True
@@ -116,14 +116,14 @@ Partial Class Form3
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "Tipo Empleado"
         '
-        'cboTIpoEmpleado
+        'cbo_tipo
         '
-        Me.cboTIpoEmpleado.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboTIpoEmpleado.FormattingEnabled = True
-        Me.cboTIpoEmpleado.Location = New System.Drawing.Point(451, 200)
-        Me.cboTIpoEmpleado.Name = "cboTIpoEmpleado"
-        Me.cboTIpoEmpleado.Size = New System.Drawing.Size(308, 34)
-        Me.cboTIpoEmpleado.TabIndex = 26
+        Me.cbo_tipo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbo_tipo.FormattingEnabled = True
+        Me.cbo_tipo.Location = New System.Drawing.Point(451, 200)
+        Me.cbo_tipo.Name = "cbo_tipo"
+        Me.cbo_tipo.Size = New System.Drawing.Size(308, 34)
+        Me.cbo_tipo.TabIndex = 26
         '
         'txt_segundo_apellido
         '
@@ -261,15 +261,15 @@ Partial Class Form3
         Me.Panel3.Size = New System.Drawing.Size(176, 2)
         Me.Panel3.TabIndex = 35
         '
-        'TextBox1
+        'txt_primer_nombre
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(224, 139)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(176, 24)
-        Me.TextBox1.TabIndex = 34
+        Me.txt_primer_nombre.BackColor = System.Drawing.Color.White
+        Me.txt_primer_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_primer_nombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_primer_nombre.Location = New System.Drawing.Point(224, 139)
+        Me.txt_primer_nombre.Name = "txt_primer_nombre"
+        Me.txt_primer_nombre.Size = New System.Drawing.Size(176, 24)
+        Me.txt_primer_nombre.TabIndex = 34
         '
         'Panel6
         '
@@ -279,15 +279,15 @@ Partial Class Form3
         Me.Panel6.Size = New System.Drawing.Size(173, 2)
         Me.Panel6.TabIndex = 37
         '
-        'TextBox2
+        'txt_sueldo
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(558, 89)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(173, 24)
-        Me.TextBox2.TabIndex = 36
+        Me.txt_sueldo.BackColor = System.Drawing.Color.White
+        Me.txt_sueldo.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_sueldo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_sueldo.Location = New System.Drawing.Point(558, 89)
+        Me.txt_sueldo.Name = "txt_sueldo"
+        Me.txt_sueldo.Size = New System.Drawing.Size(173, 24)
+        Me.txt_sueldo.TabIndex = 36
         '
         'pnlAdmin
         '
@@ -298,16 +298,16 @@ Partial Class Form3
         Me.pnlAdmin.TabIndex = 39
         Me.pnlAdmin.Visible = False
         '
-        'txtAdmin
+        'txt_incentivo
         '
-        Me.txtAdmin.BackColor = System.Drawing.Color.White
-        Me.txtAdmin.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtAdmin.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAdmin.Location = New System.Drawing.Point(527, 281)
-        Me.txtAdmin.Name = "txtAdmin"
-        Me.txtAdmin.Size = New System.Drawing.Size(176, 24)
-        Me.txtAdmin.TabIndex = 38
-        Me.txtAdmin.Visible = False
+        Me.txt_incentivo.BackColor = System.Drawing.Color.White
+        Me.txt_incentivo.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_incentivo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_incentivo.Location = New System.Drawing.Point(527, 281)
+        Me.txt_incentivo.Name = "txt_incentivo"
+        Me.txt_incentivo.Size = New System.Drawing.Size(176, 24)
+        Me.txt_incentivo.TabIndex = 38
+        Me.txt_incentivo.Visible = False
         '
         'pnlCantHoras
         '
@@ -318,27 +318,27 @@ Partial Class Form3
         Me.pnlCantHoras.TabIndex = 41
         Me.pnlCantHoras.Visible = False
         '
-        'txtCantHoras
+        'txt_cant_horas
         '
-        Me.txtCantHoras.BackColor = System.Drawing.Color.White
-        Me.txtCantHoras.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtCantHoras.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCantHoras.Location = New System.Drawing.Point(430, 331)
-        Me.txtCantHoras.Name = "txtCantHoras"
-        Me.txtCantHoras.Size = New System.Drawing.Size(176, 24)
-        Me.txtCantHoras.TabIndex = 40
-        Me.txtCantHoras.Visible = False
+        Me.txt_cant_horas.BackColor = System.Drawing.Color.White
+        Me.txt_cant_horas.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_cant_horas.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_cant_horas.Location = New System.Drawing.Point(430, 331)
+        Me.txt_cant_horas.Name = "txt_cant_horas"
+        Me.txt_cant_horas.Size = New System.Drawing.Size(176, 24)
+        Me.txt_cant_horas.TabIndex = 40
+        Me.txt_cant_horas.Visible = False
         '
-        'txtPrecioHora
+        'txt_precio_hora
         '
-        Me.txtPrecioHora.BackColor = System.Drawing.Color.White
-        Me.txtPrecioHora.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtPrecioHora.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPrecioHora.Location = New System.Drawing.Point(618, 331)
-        Me.txtPrecioHora.Name = "txtPrecioHora"
-        Me.txtPrecioHora.Size = New System.Drawing.Size(176, 24)
-        Me.txtPrecioHora.TabIndex = 42
-        Me.txtPrecioHora.Visible = False
+        Me.txt_precio_hora.BackColor = System.Drawing.Color.White
+        Me.txt_precio_hora.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_precio_hora.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_precio_hora.Location = New System.Drawing.Point(618, 331)
+        Me.txt_precio_hora.Name = "txt_precio_hora"
+        Me.txt_precio_hora.Size = New System.Drawing.Size(176, 24)
+        Me.txt_precio_hora.TabIndex = 42
+        Me.txt_precio_hora.Visible = False
         '
         'pnlPrecioHora
         '
@@ -349,16 +349,16 @@ Partial Class Form3
         Me.pnlPrecioHora.TabIndex = 43
         Me.pnlPrecioHora.Visible = False
         '
-        'txtGerente
+        'txt_gerente
         '
-        Me.txtGerente.BackColor = System.Drawing.Color.White
-        Me.txtGerente.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtGerente.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGerente.Location = New System.Drawing.Point(527, 280)
-        Me.txtGerente.Name = "txtGerente"
-        Me.txtGerente.Size = New System.Drawing.Size(176, 24)
-        Me.txtGerente.TabIndex = 44
-        Me.txtGerente.Visible = False
+        Me.txt_gerente.BackColor = System.Drawing.Color.White
+        Me.txt_gerente.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txt_gerente.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_gerente.Location = New System.Drawing.Point(527, 279)
+        Me.txt_gerente.Name = "txt_gerente"
+        Me.txt_gerente.Size = New System.Drawing.Size(176, 24)
+        Me.txt_gerente.TabIndex = 44
+        Me.txt_gerente.Visible = False
         '
         'pnlGerente
         '
@@ -455,25 +455,25 @@ Partial Class Form3
         Me.Controls.Add(Me.lblAdmin)
         Me.Controls.Add(Me.lblGerente)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.txtGerente)
+        Me.Controls.Add(Me.txt_gerente)
         Me.Controls.Add(Me.pnlGerente)
-        Me.Controls.Add(Me.txtPrecioHora)
+        Me.Controls.Add(Me.txt_precio_hora)
         Me.Controls.Add(Me.pnlPrecioHora)
-        Me.Controls.Add(Me.txtCantHoras)
+        Me.Controls.Add(Me.txt_cant_horas)
         Me.Controls.Add(Me.pnlAdmin)
         Me.Controls.Add(Me.pnlCantHoras)
-        Me.Controls.Add(Me.txtAdmin)
+        Me.Controls.Add(Me.txt_incentivo)
         Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txt_sueldo)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txt_primer_nombre)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.lbl_sueldo_base)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cboTIpoEmpleado)
+        Me.Controls.Add(Me.cbo_tipo)
         Me.Controls.Add(Me.txt_segundo_apellido)
         Me.Controls.Add(Me.lbl_segundo_apellido)
         Me.Controls.Add(Me.txt_primer_apellido)
@@ -500,7 +500,7 @@ Partial Class Form3
     Friend WithEvents Button1 As Button
     Friend WithEvents lbl_sueldo_base As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cboTIpoEmpleado As ComboBox
+    Friend WithEvents cbo_tipo As ComboBox
     Friend WithEvents txt_segundo_apellido As TextBox
     Friend WithEvents lbl_segundo_apellido As Label
     Friend WithEvents txt_primer_apellido As TextBox
@@ -516,16 +516,16 @@ Partial Class Form3
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txt_primer_nombre As TextBox
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txt_sueldo As TextBox
     Friend WithEvents pnlAdmin As Panel
-    Friend WithEvents txtAdmin As TextBox
+    Friend WithEvents txt_incentivo As TextBox
     Friend WithEvents pnlCantHoras As Panel
-    Friend WithEvents txtCantHoras As TextBox
-    Friend WithEvents txtPrecioHora As TextBox
+    Friend WithEvents txt_cant_horas As TextBox
+    Friend WithEvents txt_precio_hora As TextBox
     Friend WithEvents pnlPrecioHora As Panel
-    Friend WithEvents txtGerente As TextBox
+    Friend WithEvents txt_gerente As TextBox
     Friend WithEvents pnlGerente As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblGerente As Label

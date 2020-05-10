@@ -1,0 +1,9 @@
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\bin\Debug\Acceso a Datos.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\bin\Debug\Acceso a Datos.pdb
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\bin\Debug\Acceso a Datos.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso a Datos.vbprojAssemblyReference.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso_a_Datos.Resources.resources
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso a Datos.vbproj.GenerateResource.cache
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso a Datos.dll
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso a Datos.xml
+D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Acceso a Datos\obj\Debug\Acceso a Datos.pdb
