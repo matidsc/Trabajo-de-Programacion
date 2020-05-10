@@ -11,3 +11,16 @@ D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Deb
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.pdb
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.xml
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Logica.dll
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Logica.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Logica.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.dll
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.Resources.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.dll
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\Principal\obj\Debug\Logica.pdb

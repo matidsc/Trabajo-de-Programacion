@@ -1,4 +1,14 @@
-﻿Public Class Form4
+﻿Imports Logica
+
+Public Class Form4
+
+    Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim met As New Metodos
+        Dim dt As New DataTable
+        dt = met.getEmp()
+        dgvEmp.DataSource = dt
+
+    End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Me.WindowState = WindowState.Minimized
     End Sub

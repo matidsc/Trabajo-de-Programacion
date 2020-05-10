@@ -26,34 +26,34 @@ Partial Class Form3
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.lbl_sueldo_base = New System.Windows.Forms.Label()
+        Me.lblSueldoBase = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cbo_tipo = New System.Windows.Forms.ComboBox()
-        Me.txt_segundo_apellido = New System.Windows.Forms.TextBox()
-        Me.lbl_segundo_apellido = New System.Windows.Forms.Label()
-        Me.txt_primer_apellido = New System.Windows.Forms.TextBox()
-        Me.lbl_primer_apellido = New System.Windows.Forms.Label()
-        Me.txt_segundo_nombre = New System.Windows.Forms.TextBox()
-        Me.lbl_segundo_nombre = New System.Windows.Forms.Label()
-        Me.lbl_primer_nombre = New System.Windows.Forms.Label()
-        Me.txt_cedula = New System.Windows.Forms.TextBox()
-        Me.lbl_cedula = New System.Windows.Forms.Label()
+        Me.cboTipo = New System.Windows.Forms.ComboBox()
+        Me.txtSegundoApellido = New System.Windows.Forms.TextBox()
+        Me.lblSegundoApellido = New System.Windows.Forms.Label()
+        Me.txtPrimerApellido = New System.Windows.Forms.TextBox()
+        Me.lblPrimerApellido = New System.Windows.Forms.Label()
+        Me.txtSegundoNombre = New System.Windows.Forms.TextBox()
+        Me.lblSegundoNombre = New System.Windows.Forms.Label()
+        Me.lblPrimerNombre = New System.Windows.Forms.Label()
+        Me.txtCedula = New System.Windows.Forms.TextBox()
+        Me.lblCedula = New System.Windows.Forms.Label()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel5 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.txt_primer_nombre = New System.Windows.Forms.TextBox()
+        Me.txtPrimerNombre = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.txt_sueldo = New System.Windows.Forms.TextBox()
+        Me.txtSueldo = New System.Windows.Forms.TextBox()
         Me.pnlAdmin = New System.Windows.Forms.Panel()
-        Me.txt_incentivo = New System.Windows.Forms.TextBox()
+        Me.txtIncentivo = New System.Windows.Forms.TextBox()
         Me.pnlCantHoras = New System.Windows.Forms.Panel()
-        Me.txt_cant_horas = New System.Windows.Forms.TextBox()
-        Me.txt_precio_hora = New System.Windows.Forms.TextBox()
+        Me.txtCantHoras = New System.Windows.Forms.TextBox()
+        Me.txtPrecioHora = New System.Windows.Forms.TextBox()
         Me.pnlPrecioHora = New System.Windows.Forms.Panel()
-        Me.txt_gerente = New System.Windows.Forms.TextBox()
+        Me.txtGerente = New System.Windows.Forms.TextBox()
         Me.pnlGerente = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblGerente = New System.Windows.Forms.Label()
@@ -96,15 +96,15 @@ Partial Class Form3
         Me.Button1.Text = "X"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'lbl_sueldo_base
+        'lblSueldoBase
         '
-        Me.lbl_sueldo_base.AutoSize = True
-        Me.lbl_sueldo_base.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_sueldo_base.Location = New System.Drawing.Point(425, 87)
-        Me.lbl_sueldo_base.Name = "lbl_sueldo_base"
-        Me.lbl_sueldo_base.Size = New System.Drawing.Size(127, 26)
-        Me.lbl_sueldo_base.TabIndex = 28
-        Me.lbl_sueldo_base.Text = "Sueldo base"
+        Me.lblSueldoBase.AutoSize = True
+        Me.lblSueldoBase.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSueldoBase.Location = New System.Drawing.Point(425, 87)
+        Me.lblSueldoBase.Name = "lblSueldoBase"
+        Me.lblSueldoBase.Size = New System.Drawing.Size(127, 26)
+        Me.lblSueldoBase.TabIndex = 28
+        Me.lblSueldoBase.Text = "Sueldo base"
         '
         'Label1
         '
@@ -116,105 +116,105 @@ Partial Class Form3
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "Tipo Empleado"
         '
-        'cbo_tipo
+        'cboTipo
         '
-        Me.cbo_tipo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbo_tipo.FormattingEnabled = True
-        Me.cbo_tipo.Location = New System.Drawing.Point(451, 200)
-        Me.cbo_tipo.Name = "cbo_tipo"
-        Me.cbo_tipo.Size = New System.Drawing.Size(308, 34)
-        Me.cbo_tipo.TabIndex = 26
+        Me.cboTipo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboTipo.FormattingEnabled = True
+        Me.cboTipo.Location = New System.Drawing.Point(451, 200)
+        Me.cboTipo.Name = "cboTipo"
+        Me.cboTipo.Size = New System.Drawing.Size(308, 34)
+        Me.cboTipo.TabIndex = 26
         '
-        'txt_segundo_apellido
+        'txtSegundoApellido
         '
-        Me.txt_segundo_apellido.BackColor = System.Drawing.Color.White
-        Me.txt_segundo_apellido.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_segundo_apellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_segundo_apellido.Location = New System.Drawing.Point(224, 330)
-        Me.txt_segundo_apellido.Name = "txt_segundo_apellido"
-        Me.txt_segundo_apellido.Size = New System.Drawing.Size(176, 24)
-        Me.txt_segundo_apellido.TabIndex = 22
+        Me.txtSegundoApellido.BackColor = System.Drawing.Color.White
+        Me.txtSegundoApellido.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSegundoApellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSegundoApellido.Location = New System.Drawing.Point(224, 330)
+        Me.txtSegundoApellido.Name = "txtSegundoApellido"
+        Me.txtSegundoApellido.Size = New System.Drawing.Size(176, 24)
+        Me.txtSegundoApellido.TabIndex = 22
         '
-        'lbl_segundo_apellido
+        'lblSegundoApellido
         '
-        Me.lbl_segundo_apellido.AutoSize = True
-        Me.lbl_segundo_apellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_segundo_apellido.Location = New System.Drawing.Point(16, 335)
-        Me.lbl_segundo_apellido.Name = "lbl_segundo_apellido"
-        Me.lbl_segundo_apellido.Size = New System.Drawing.Size(182, 26)
-        Me.lbl_segundo_apellido.TabIndex = 25
-        Me.lbl_segundo_apellido.Text = "Segundo Apellido"
+        Me.lblSegundoApellido.AutoSize = True
+        Me.lblSegundoApellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSegundoApellido.Location = New System.Drawing.Point(16, 335)
+        Me.lblSegundoApellido.Name = "lblSegundoApellido"
+        Me.lblSegundoApellido.Size = New System.Drawing.Size(182, 26)
+        Me.lblSegundoApellido.TabIndex = 25
+        Me.lblSegundoApellido.Text = "Segundo Apellido"
         '
-        'txt_primer_apellido
+        'txtPrimerApellido
         '
-        Me.txt_primer_apellido.BackColor = System.Drawing.Color.White
-        Me.txt_primer_apellido.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_primer_apellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_primer_apellido.Location = New System.Drawing.Point(224, 268)
-        Me.txt_primer_apellido.Name = "txt_primer_apellido"
-        Me.txt_primer_apellido.Size = New System.Drawing.Size(176, 24)
-        Me.txt_primer_apellido.TabIndex = 20
+        Me.txtPrimerApellido.BackColor = System.Drawing.Color.White
+        Me.txtPrimerApellido.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPrimerApellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPrimerApellido.Location = New System.Drawing.Point(224, 268)
+        Me.txtPrimerApellido.Name = "txtPrimerApellido"
+        Me.txtPrimerApellido.Size = New System.Drawing.Size(176, 24)
+        Me.txtPrimerApellido.TabIndex = 20
         '
-        'lbl_primer_apellido
+        'lblPrimerApellido
         '
-        Me.lbl_primer_apellido.AutoSize = True
-        Me.lbl_primer_apellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_primer_apellido.Location = New System.Drawing.Point(16, 274)
-        Me.lbl_primer_apellido.Name = "lbl_primer_apellido"
-        Me.lbl_primer_apellido.Size = New System.Drawing.Size(161, 26)
-        Me.lbl_primer_apellido.TabIndex = 24
-        Me.lbl_primer_apellido.Text = "Primer Apellido"
+        Me.lblPrimerApellido.AutoSize = True
+        Me.lblPrimerApellido.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPrimerApellido.Location = New System.Drawing.Point(16, 274)
+        Me.lblPrimerApellido.Name = "lblPrimerApellido"
+        Me.lblPrimerApellido.Size = New System.Drawing.Size(161, 26)
+        Me.lblPrimerApellido.TabIndex = 24
+        Me.lblPrimerApellido.Text = "Primer Apellido"
         '
-        'txt_segundo_nombre
+        'txtSegundoNombre
         '
-        Me.txt_segundo_nombre.BackColor = System.Drawing.Color.White
-        Me.txt_segundo_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_segundo_nombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_segundo_nombre.Location = New System.Drawing.Point(224, 200)
-        Me.txt_segundo_nombre.Name = "txt_segundo_nombre"
-        Me.txt_segundo_nombre.Size = New System.Drawing.Size(176, 24)
-        Me.txt_segundo_nombre.TabIndex = 19
+        Me.txtSegundoNombre.BackColor = System.Drawing.Color.White
+        Me.txtSegundoNombre.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSegundoNombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSegundoNombre.Location = New System.Drawing.Point(224, 200)
+        Me.txtSegundoNombre.Name = "txtSegundoNombre"
+        Me.txtSegundoNombre.Size = New System.Drawing.Size(176, 24)
+        Me.txtSegundoNombre.TabIndex = 19
         '
-        'lbl_segundo_nombre
+        'lblSegundoNombre
         '
-        Me.lbl_segundo_nombre.AutoSize = True
-        Me.lbl_segundo_nombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_segundo_nombre.Location = New System.Drawing.Point(16, 206)
-        Me.lbl_segundo_nombre.Name = "lbl_segundo_nombre"
-        Me.lbl_segundo_nombre.Size = New System.Drawing.Size(183, 26)
-        Me.lbl_segundo_nombre.TabIndex = 21
-        Me.lbl_segundo_nombre.Text = "Segundo Nombre"
+        Me.lblSegundoNombre.AutoSize = True
+        Me.lblSegundoNombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSegundoNombre.Location = New System.Drawing.Point(16, 206)
+        Me.lblSegundoNombre.Name = "lblSegundoNombre"
+        Me.lblSegundoNombre.Size = New System.Drawing.Size(183, 26)
+        Me.lblSegundoNombre.TabIndex = 21
+        Me.lblSegundoNombre.Text = "Segundo Nombre"
         '
-        'lbl_primer_nombre
+        'lblPrimerNombre
         '
-        Me.lbl_primer_nombre.AutoSize = True
-        Me.lbl_primer_nombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_primer_nombre.Location = New System.Drawing.Point(15, 140)
-        Me.lbl_primer_nombre.Name = "lbl_primer_nombre"
-        Me.lbl_primer_nombre.Size = New System.Drawing.Size(162, 26)
-        Me.lbl_primer_nombre.TabIndex = 18
-        Me.lbl_primer_nombre.Text = "Primer Nombre"
+        Me.lblPrimerNombre.AutoSize = True
+        Me.lblPrimerNombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPrimerNombre.Location = New System.Drawing.Point(15, 140)
+        Me.lblPrimerNombre.Name = "lblPrimerNombre"
+        Me.lblPrimerNombre.Size = New System.Drawing.Size(162, 26)
+        Me.lblPrimerNombre.TabIndex = 18
+        Me.lblPrimerNombre.Text = "Primer Nombre"
         '
-        'txt_cedula
+        'txtCedula
         '
-        Me.txt_cedula.BackColor = System.Drawing.Color.White
-        Me.txt_cedula.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_cedula.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_cedula.Location = New System.Drawing.Point(101, 82)
-        Me.txt_cedula.Margin = New System.Windows.Forms.Padding(0)
-        Me.txt_cedula.Name = "txt_cedula"
-        Me.txt_cedula.Size = New System.Drawing.Size(104, 24)
-        Me.txt_cedula.TabIndex = 16
+        Me.txtCedula.BackColor = System.Drawing.Color.White
+        Me.txtCedula.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtCedula.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCedula.Location = New System.Drawing.Point(101, 82)
+        Me.txtCedula.Margin = New System.Windows.Forms.Padding(0)
+        Me.txtCedula.Name = "txtCedula"
+        Me.txtCedula.Size = New System.Drawing.Size(104, 24)
+        Me.txtCedula.TabIndex = 16
         '
-        'lbl_cedula
+        'lblCedula
         '
-        Me.lbl_cedula.AutoSize = True
-        Me.lbl_cedula.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_cedula.Location = New System.Drawing.Point(16, 87)
-        Me.lbl_cedula.Name = "lbl_cedula"
-        Me.lbl_cedula.Size = New System.Drawing.Size(79, 26)
-        Me.lbl_cedula.TabIndex = 15
-        Me.lbl_cedula.Text = "Cédula"
+        Me.lblCedula.AutoSize = True
+        Me.lblCedula.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCedula.Location = New System.Drawing.Point(16, 87)
+        Me.lblCedula.Name = "lblCedula"
+        Me.lblCedula.Size = New System.Drawing.Size(79, 26)
+        Me.lblCedula.TabIndex = 15
+        Me.lblCedula.Text = "Cédula"
         '
         'ContextMenuStrip1
         '
@@ -261,15 +261,15 @@ Partial Class Form3
         Me.Panel3.Size = New System.Drawing.Size(176, 2)
         Me.Panel3.TabIndex = 35
         '
-        'txt_primer_nombre
+        'txtPrimerNombre
         '
-        Me.txt_primer_nombre.BackColor = System.Drawing.Color.White
-        Me.txt_primer_nombre.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_primer_nombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_primer_nombre.Location = New System.Drawing.Point(224, 139)
-        Me.txt_primer_nombre.Name = "txt_primer_nombre"
-        Me.txt_primer_nombre.Size = New System.Drawing.Size(176, 24)
-        Me.txt_primer_nombre.TabIndex = 34
+        Me.txtPrimerNombre.BackColor = System.Drawing.Color.White
+        Me.txtPrimerNombre.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPrimerNombre.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPrimerNombre.Location = New System.Drawing.Point(224, 139)
+        Me.txtPrimerNombre.Name = "txtPrimerNombre"
+        Me.txtPrimerNombre.Size = New System.Drawing.Size(176, 24)
+        Me.txtPrimerNombre.TabIndex = 34
         '
         'Panel6
         '
@@ -279,15 +279,15 @@ Partial Class Form3
         Me.Panel6.Size = New System.Drawing.Size(173, 2)
         Me.Panel6.TabIndex = 37
         '
-        'txt_sueldo
+        'txtSueldo
         '
-        Me.txt_sueldo.BackColor = System.Drawing.Color.White
-        Me.txt_sueldo.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_sueldo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_sueldo.Location = New System.Drawing.Point(558, 89)
-        Me.txt_sueldo.Name = "txt_sueldo"
-        Me.txt_sueldo.Size = New System.Drawing.Size(173, 24)
-        Me.txt_sueldo.TabIndex = 36
+        Me.txtSueldo.BackColor = System.Drawing.Color.White
+        Me.txtSueldo.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtSueldo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSueldo.Location = New System.Drawing.Point(558, 89)
+        Me.txtSueldo.Name = "txtSueldo"
+        Me.txtSueldo.Size = New System.Drawing.Size(173, 24)
+        Me.txtSueldo.TabIndex = 36
         '
         'pnlAdmin
         '
@@ -298,16 +298,16 @@ Partial Class Form3
         Me.pnlAdmin.TabIndex = 39
         Me.pnlAdmin.Visible = False
         '
-        'txt_incentivo
+        'txtIncentivo
         '
-        Me.txt_incentivo.BackColor = System.Drawing.Color.White
-        Me.txt_incentivo.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_incentivo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_incentivo.Location = New System.Drawing.Point(527, 281)
-        Me.txt_incentivo.Name = "txt_incentivo"
-        Me.txt_incentivo.Size = New System.Drawing.Size(176, 24)
-        Me.txt_incentivo.TabIndex = 38
-        Me.txt_incentivo.Visible = False
+        Me.txtIncentivo.BackColor = System.Drawing.Color.White
+        Me.txtIncentivo.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtIncentivo.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIncentivo.Location = New System.Drawing.Point(527, 281)
+        Me.txtIncentivo.Name = "txtIncentivo"
+        Me.txtIncentivo.Size = New System.Drawing.Size(176, 24)
+        Me.txtIncentivo.TabIndex = 38
+        Me.txtIncentivo.Visible = False
         '
         'pnlCantHoras
         '
@@ -318,27 +318,27 @@ Partial Class Form3
         Me.pnlCantHoras.TabIndex = 41
         Me.pnlCantHoras.Visible = False
         '
-        'txt_cant_horas
+        'txtCantHoras
         '
-        Me.txt_cant_horas.BackColor = System.Drawing.Color.White
-        Me.txt_cant_horas.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_cant_horas.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_cant_horas.Location = New System.Drawing.Point(430, 331)
-        Me.txt_cant_horas.Name = "txt_cant_horas"
-        Me.txt_cant_horas.Size = New System.Drawing.Size(176, 24)
-        Me.txt_cant_horas.TabIndex = 40
-        Me.txt_cant_horas.Visible = False
+        Me.txtCantHoras.BackColor = System.Drawing.Color.White
+        Me.txtCantHoras.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtCantHoras.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCantHoras.Location = New System.Drawing.Point(430, 331)
+        Me.txtCantHoras.Name = "txtCantHoras"
+        Me.txtCantHoras.Size = New System.Drawing.Size(176, 24)
+        Me.txtCantHoras.TabIndex = 40
+        Me.txtCantHoras.Visible = False
         '
-        'txt_precio_hora
+        'txtPrecioHora
         '
-        Me.txt_precio_hora.BackColor = System.Drawing.Color.White
-        Me.txt_precio_hora.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_precio_hora.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_precio_hora.Location = New System.Drawing.Point(618, 331)
-        Me.txt_precio_hora.Name = "txt_precio_hora"
-        Me.txt_precio_hora.Size = New System.Drawing.Size(176, 24)
-        Me.txt_precio_hora.TabIndex = 42
-        Me.txt_precio_hora.Visible = False
+        Me.txtPrecioHora.BackColor = System.Drawing.Color.White
+        Me.txtPrecioHora.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtPrecioHora.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPrecioHora.Location = New System.Drawing.Point(618, 331)
+        Me.txtPrecioHora.Name = "txtPrecioHora"
+        Me.txtPrecioHora.Size = New System.Drawing.Size(176, 24)
+        Me.txtPrecioHora.TabIndex = 42
+        Me.txtPrecioHora.Visible = False
         '
         'pnlPrecioHora
         '
@@ -349,16 +349,16 @@ Partial Class Form3
         Me.pnlPrecioHora.TabIndex = 43
         Me.pnlPrecioHora.Visible = False
         '
-        'txt_gerente
+        'txtGerente
         '
-        Me.txt_gerente.BackColor = System.Drawing.Color.White
-        Me.txt_gerente.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txt_gerente.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt_gerente.Location = New System.Drawing.Point(527, 279)
-        Me.txt_gerente.Name = "txt_gerente"
-        Me.txt_gerente.Size = New System.Drawing.Size(176, 24)
-        Me.txt_gerente.TabIndex = 44
-        Me.txt_gerente.Visible = False
+        Me.txtGerente.BackColor = System.Drawing.Color.White
+        Me.txtGerente.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtGerente.Font = New System.Drawing.Font("Montserrat", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtGerente.Location = New System.Drawing.Point(527, 279)
+        Me.txtGerente.Name = "txtGerente"
+        Me.txtGerente.Size = New System.Drawing.Size(176, 24)
+        Me.txtGerente.TabIndex = 44
+        Me.txtGerente.Visible = False
         '
         'pnlGerente
         '
@@ -455,34 +455,34 @@ Partial Class Form3
         Me.Controls.Add(Me.lblAdmin)
         Me.Controls.Add(Me.lblGerente)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.txt_gerente)
+        Me.Controls.Add(Me.txtGerente)
         Me.Controls.Add(Me.pnlGerente)
-        Me.Controls.Add(Me.txt_precio_hora)
+        Me.Controls.Add(Me.txtPrecioHora)
         Me.Controls.Add(Me.pnlPrecioHora)
-        Me.Controls.Add(Me.txt_cant_horas)
+        Me.Controls.Add(Me.txtCantHoras)
         Me.Controls.Add(Me.pnlAdmin)
         Me.Controls.Add(Me.pnlCantHoras)
-        Me.Controls.Add(Me.txt_incentivo)
+        Me.Controls.Add(Me.txtIncentivo)
         Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.txt_sueldo)
+        Me.Controls.Add(Me.txtSueldo)
         Me.Controls.Add(Me.Panel3)
-        Me.Controls.Add(Me.txt_primer_nombre)
+        Me.Controls.Add(Me.txtPrimerNombre)
         Me.Controls.Add(Me.Panel5)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.lbl_sueldo_base)
+        Me.Controls.Add(Me.lblSueldoBase)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cbo_tipo)
-        Me.Controls.Add(Me.txt_segundo_apellido)
-        Me.Controls.Add(Me.lbl_segundo_apellido)
-        Me.Controls.Add(Me.txt_primer_apellido)
-        Me.Controls.Add(Me.lbl_primer_apellido)
-        Me.Controls.Add(Me.txt_segundo_nombre)
-        Me.Controls.Add(Me.lbl_segundo_nombre)
-        Me.Controls.Add(Me.lbl_primer_nombre)
-        Me.Controls.Add(Me.txt_cedula)
-        Me.Controls.Add(Me.lbl_cedula)
+        Me.Controls.Add(Me.cboTipo)
+        Me.Controls.Add(Me.txtSegundoApellido)
+        Me.Controls.Add(Me.lblSegundoApellido)
+        Me.Controls.Add(Me.txtPrimerApellido)
+        Me.Controls.Add(Me.lblPrimerApellido)
+        Me.Controls.Add(Me.txtSegundoNombre)
+        Me.Controls.Add(Me.lblSegundoNombre)
+        Me.Controls.Add(Me.lblPrimerNombre)
+        Me.Controls.Add(Me.txtCedula)
+        Me.Controls.Add(Me.lblCedula)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -498,34 +498,34 @@ Partial Class Form3
 
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents lbl_sueldo_base As Label
+    Friend WithEvents lblSueldoBase As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cbo_tipo As ComboBox
-    Friend WithEvents txt_segundo_apellido As TextBox
-    Friend WithEvents lbl_segundo_apellido As Label
-    Friend WithEvents txt_primer_apellido As TextBox
-    Friend WithEvents lbl_primer_apellido As Label
-    Friend WithEvents txt_segundo_nombre As TextBox
-    Friend WithEvents lbl_segundo_nombre As Label
-    Friend WithEvents lbl_primer_nombre As Label
-    Friend WithEvents txt_cedula As TextBox
-    Friend WithEvents lbl_cedula As Label
+    Friend WithEvents cboTipo As ComboBox
+    Friend WithEvents txtSegundoApellido As TextBox
+    Friend WithEvents lblSegundoApellido As Label
+    Friend WithEvents txtPrimerApellido As TextBox
+    Friend WithEvents lblPrimerApellido As Label
+    Friend WithEvents txtSegundoNombre As TextBox
+    Friend WithEvents lblSegundoNombre As Label
+    Friend WithEvents lblPrimerNombre As Label
+    Friend WithEvents txtCedula As TextBox
+    Friend WithEvents lblCedula As Label
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel5 As Panel
     Friend WithEvents Panel3 As Panel
-    Friend WithEvents txt_primer_nombre As TextBox
+    Friend WithEvents txtPrimerNombre As TextBox
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents txt_sueldo As TextBox
+    Friend WithEvents txtSueldo As TextBox
     Friend WithEvents pnlAdmin As Panel
-    Friend WithEvents txt_incentivo As TextBox
+    Friend WithEvents txtIncentivo As TextBox
     Friend WithEvents pnlCantHoras As Panel
-    Friend WithEvents txt_cant_horas As TextBox
-    Friend WithEvents txt_precio_hora As TextBox
+    Friend WithEvents txtCantHoras As TextBox
+    Friend WithEvents txtPrecioHora As TextBox
     Friend WithEvents pnlPrecioHora As Panel
-    Friend WithEvents txt_gerente As TextBox
+    Friend WithEvents txtGerente As TextBox
     Friend WithEvents pnlGerente As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblGerente As Label

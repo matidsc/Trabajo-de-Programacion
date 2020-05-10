@@ -19,3 +19,24 @@ D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\obj\D
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
 D:\Onedrive\Trabajos\2020\Programacion\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe.config
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.dll
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form1.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form2.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form3.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form4.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.exe
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.xml
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.pdb
