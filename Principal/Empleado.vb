@@ -30,5 +30,8 @@ Public Class Empleado
     Public Function agregar() As Boolean
 
     End Function
+    Public Overridable Function modificar() As Boolean
+
+    End Function
 
 End Class

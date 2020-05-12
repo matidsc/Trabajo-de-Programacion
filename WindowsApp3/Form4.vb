@@ -1,7 +1,6 @@
 ﻿Imports Logica
 
 Public Class Form4
-
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim met As New Metodos
         Dim dt As New DataTable
@@ -20,5 +19,16 @@ Public Class Form4
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
+    End Sub
+
+    Private Sub dgvEmp_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dgvEmp.KeyPress
+        e.Handled = False
+    End Sub
+
+    Private Sub dgvEmp_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvEmp.CellContentClick
+        Me.Close()
+        Form5.seleccionado = e.RowIndex
+        Form5.Visible = True
+        Form5.tomarDatos()
     End Sub
 End Class

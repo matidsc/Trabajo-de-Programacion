@@ -35,5 +35,11 @@ Public Class Administrativo
 
         Return datos.agregar_registro(_cedula, _primer_nombre, _segundo_nombre, _primer_apellido, _segundo_apellido, _sueldo, _incentivo, "administrativo", "incentivo")
     End Function
+    Public Overloads Function modificar()
+
+        Dim datos As New Consultas
+
+        Return datos.modificar_registro(_cedula, _primer_nombre, _segundo_nombre, _primer_apellido, _segundo_apellido, _sueldo, _incentivo, "administrativo", "incentivo")
+    End Function
 
 End Class

@@ -36,5 +36,10 @@ Public Class Gerente
 
         Return datos.agregar_registro(_cedula, _primer_nombre, _segundo_nombre, _primer_apellido, _segundo_apellido, _sueldo, _nivel, "gerente", "nivel")
     End Function
+    Public Overloads Function modificar()
 
+        Dim datos As New Consultas
+
+        Return datos.modificar_registro(_cedula, _primer_nombre, _segundo_nombre, _primer_apellido, _segundo_apellido, _sueldo, _nivel, "gerente", "nivel")
+    End Function
 End Class
