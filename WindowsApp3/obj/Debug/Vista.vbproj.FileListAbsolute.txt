@@ -62,3 +62,4 @@ C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.vbproj.CopyComp
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.exe
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.xml
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.pdb
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form5.resources

@@ -1,8 +1,9 @@
-﻿Imports System.Data.Odbc
-Imports Acceso_a_Datos
+﻿Imports Acceso_a_Datos
 Imports Logica
 
 Public Class Form5
+
+
     Private cedula As String
     Public Sub darCedula(cedula As String)
         Dim consultas = New Consultas()

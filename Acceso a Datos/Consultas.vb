@@ -153,7 +153,7 @@ Public Class Consultas
     End Function
     Overloads Function mostrar_empleados() As DataTable
 
-        Dim conn As New OdbcConnection("dsn=driverODBC;uid=root;pwd=;")
+
         Dim command As String = "SELECT * FROM empleado"
         Dim dt As New DataTable
         Try

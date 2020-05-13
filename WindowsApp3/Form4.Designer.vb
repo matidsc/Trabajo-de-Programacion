@@ -38,10 +38,9 @@ Partial Class Form4
         '
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(29, 15)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(22, 12)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(36, 31)
+        Me.PictureBox2.Size = New System.Drawing.Size(27, 25)
         Me.PictureBox2.TabIndex = 54
         Me.PictureBox2.TabStop = False
         '
@@ -51,11 +50,11 @@ Partial Class Form4
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(991, 0)
+        Me.Button2.Location = New System.Drawing.Point(743, 0)
         Me.Button2.Margin = New System.Windows.Forms.Padding(0)
         Me.Button2.Name = "Button2"
         Me.Button2.Padding = New System.Windows.Forms.Padding(1)
-        Me.Button2.Size = New System.Drawing.Size(39, 33)
+        Me.Button2.Size = New System.Drawing.Size(29, 27)
         Me.Button2.TabIndex = 53
         Me.Button2.Text = "_"
         Me.Button2.UseVisualStyleBackColor = True
@@ -66,11 +65,11 @@ Partial Class Form4
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1029, 0)
+        Me.Button1.Location = New System.Drawing.Point(772, 0)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Padding = New System.Windows.Forms.Padding(1)
-        Me.Button1.Size = New System.Drawing.Size(39, 33)
+        Me.Button1.Size = New System.Drawing.Size(29, 27)
         Me.Button1.TabIndex = 52
         Me.Button1.Text = "X"
         Me.Button1.UseVisualStyleBackColor = True
@@ -78,11 +77,10 @@ Partial Class Form4
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(299, 38)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(243, 67)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(388, 42)
+        Me.Label3.Size = New System.Drawing.Size(329, 36)
         Me.Label3.TabIndex = 55
         Me.Label3.Text = "Listado de Empleados"
         '
@@ -95,36 +93,35 @@ Partial Class Form4
         Me.dgvEmp.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.dgvEmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvEmp.ColumnHeadersVisible = False
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
         DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle2.Padding = New System.Windows.Forms.Padding(2)
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgvEmp.DefaultCellStyle = DataGridViewCellStyle2
-        Me.dgvEmp.Location = New System.Drawing.Point(47, 175)
-        Me.dgvEmp.Margin = New System.Windows.Forms.Padding(4)
+        Me.dgvEmp.Location = New System.Drawing.Point(35, 183)
         Me.dgvEmp.Name = "dgvEmp"
         Me.dgvEmp.ReadOnly = True
         Me.dgvEmp.RowHeadersVisible = False
         Me.dgvEmp.RowHeadersWidth = 51
-        Me.dgvEmp.Size = New System.Drawing.Size(983, 284)
+        Me.dgvEmp.Size = New System.Drawing.Size(737, 231)
         Me.dgvEmp.TabIndex = 56
         '
         'Form4
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.dgvEmp)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form4"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form4"

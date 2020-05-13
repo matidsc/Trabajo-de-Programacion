@@ -1,6 +1,7 @@
 ﻿Imports Logica
 
 Public Class Form4
+
     Private Sub Form4_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim met As New Metodos
         Dim dt As New DataTable
@@ -30,4 +31,6 @@ Public Class Form4
         Me.Close()
 
     End Sub
+
+
 End Class

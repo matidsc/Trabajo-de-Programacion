@@ -2,6 +2,8 @@
 
 Public Class Metodos
 
+    Private mov As Boolean
+    Private movX, movY As Double
     Public Function getEmp() As DataTable
         Dim dt As DataTable
         Dim datos As New Consultas()
@@ -53,5 +55,6 @@ Public Class Metodos
         Return dt
 
     End Function
+
 
 End Class
