@@ -24,11 +24,10 @@ Public Class Form4
     Private Sub dgvEmp_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dgvEmp.KeyPress
         e.Handled = False
     End Sub
-
-    Private Sub dgvEmp_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvEmp.CellContentClick
-        Me.Close()
-        Form5.seleccionado = e.RowIndex
+    Private Sub dgvEmp_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvEmp.CellDoubleClick
         Form5.Visible = True
-        Form5.tomarDatos()
+        Form5.darCedula(sender.CurrentRow.Cells(0).Value)
+        Me.Close()
+
     End Sub
 End Class

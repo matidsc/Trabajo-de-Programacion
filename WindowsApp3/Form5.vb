@@ -1,20 +1,22 @@
-﻿Imports Acceso_a_Datos
+﻿Imports System.Data.Odbc
+Imports Acceso_a_Datos
 Imports Logica
 
 Public Class Form5
-    Public Shared seleccionado As Integer = 0
     Private cedula As String
-    Public Sub tomarDatos(datos As String())
-        cedula = datos(0)
-        txtPrimerNombre.Text = datos(1)
-        txtSegundoNombre.Text = datos(2)
-        txtPrimerApellido.Text = datos(3)
-        txtSegundoApellido.Text = datos(4)
-        txtSueldo.Text = datos(5)
-        cboTipo.Text = datos(6)
-        Select Case New Consultas().buscar_empleados_en_tablas(cedula)
+    Public Sub darCedula(cedula As String)
+        Dim consultas = New Consultas()
+        Dim readerEmpleado = consultas.tomarEmpleado(cedula)
+        Dim readerTrabajoDeEmpleado As Object
+        readerTrabajoDeEmpleado = consultas.buscar_empleados_en_tablas(cedula)
+        Me.cedula = readerEmpleado.GetString(0)
+        txtPrimerNombre.Text = readerEmpleado.GetString(1)
+        txtSegundoNombre.Text = readerEmpleado.GetString(2)
+        txtPrimerApellido.Text = readerEmpleado.GetString(3)
+        txtSegundoApellido.Text = readerEmpleado.GetString(4)
+        txtSueldo.Text = readerEmpleado.GetString(5)
+        Select Case readerTrabajoDeEmpleado(0)
             Case "Administrativo"
-
                 txtIncentivo.Visible = True
                 pnlAdmin.Visible = True
                 lblAdmin.Visible = True
@@ -30,10 +32,11 @@ Public Class Form5
                 txtGerente.Visible = False
                 pnlGerente.Visible = False
                 txtIncentivo.Focus()
-                txtIncentivo.Text = datos(7)
+
+                cboTipo.SelectedIndex = 1
+                txtIncentivo.Text = readerTrabajoDeEmpleado(1)(1)
 
             Case "Operario"
-
                 lblPrecioHora.Visible = True
                 lblCantHoras.Visible = True
                 txtCantHoras.Visible = True
@@ -49,8 +52,11 @@ Public Class Form5
                 txtGerente.Visible = False
                 pnlGerente.Visible = False
                 txtCantHoras.Focus()
-                txtCantHoras.Text = datos(7)
-                txtPrecioHora.Text = datos(8)
+
+                cboTipo.SelectedIndex = 2
+                txtCantHoras.Text = readerTrabajoDeEmpleado(1)(1)
+                txtPrecioHora.Text = readerTrabajoDeEmpleado(1)(2)
+
 
             Case "Gerente"
 
@@ -70,7 +76,8 @@ Public Class Form5
                 pnlPrecioHora.Visible = False
                 txtGerente.Focus()
 
-                txtGerente.Text = datos(7)
+                cboTipo.SelectedIndex = 3
+                txtGerente.Text = readerTrabajoDeEmpleado(1)(1)
         End Select
     End Sub
 
@@ -296,8 +303,8 @@ Public Class Form5
                 adm._incentivo = Double.Parse(txtIncentivo.Text)
                 adm.Sueldo()
 
-                If adm.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
+                If adm.modificar() Then
+                    MsgBox("Empleado modificado con éxito")
                 End If
 
             Case 2
@@ -314,8 +321,8 @@ Public Class Form5
                 ope._precio_hora = Double.Parse(txtPrecioHora.Text)
                 ope.Sueldo()
 
-                If ope.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
+                If ope.modificar() Then
+                    MsgBox("Empleado modificado con éxito")
                 End If
 
             Case 3
@@ -332,7 +339,7 @@ Public Class Form5
                 ger.Sueldo()
 
                 If ger.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
+                    MsgBox("Empleado modificado con éxito")
                 End If
 
         End Select

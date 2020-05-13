@@ -106,6 +106,7 @@ Partial Class Form4
         Me.dgvEmp.Location = New System.Drawing.Point(47, 175)
         Me.dgvEmp.Margin = New System.Windows.Forms.Padding(4)
         Me.dgvEmp.Name = "dgvEmp"
+        Me.dgvEmp.ReadOnly = True
         Me.dgvEmp.RowHeadersVisible = False
         Me.dgvEmp.RowHeadersWidth = 51
         Me.dgvEmp.Size = New System.Drawing.Size(983, 284)
