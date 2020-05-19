@@ -73,35 +73,41 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="frmDelMod.Designer.vb">
+      <DependentUpon>frmDelMod.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="frmDelMod.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="frmListado.Designer.vb">
+      <DependentUpon>frmListado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListado.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frmBienvenida.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="frmBienvenida.Designer.vb">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="frmAddList.Designer.vb">
+      <DependentUpon>frmAddList.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="frmAddList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="frmRegistro.Designer.vb">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="frmRegistro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificar.Designer.vb">
+      <DependentUpon>frmModificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -121,20 +127,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="frmBienvenida.resx">
+      <DependentUpon>frmBienvenida.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="frmAddList.resx">
+      <DependentUpon>frmAddList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="frmDelMod.resx">
+      <DependentUpon>frmDelMod.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="frmListado.resx">
+      <DependentUpon>frmListado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificar.resx">
+      <DependentUpon>frmModificar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -156,10 +165,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Acceso a Datos\Acceso_a_Datos.vbproj">
-      <Project>{CADEAF98-F5DD-4AC2-812B-8A55E8D9BA79}</Project>
-      <Name>Acceso_a_Datos</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Principal\Logica.vbproj">
       <Project>{a6a0b2c0-c7f3-4506-aeb3-bfe5ea7d13c9}</Project>
       <Name>Logica</Name>

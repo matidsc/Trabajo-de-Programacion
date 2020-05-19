@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form2
+Partial Class frmAddList
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAddList))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -70,11 +70,11 @@ Partial Class Form2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(472, 365)
+        Me.Label2.Location = New System.Drawing.Point(488, 365)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(257, 30)
+        Me.Label2.Size = New System.Drawing.Size(211, 30)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Modificar Empleado"
+        Me.Label2.Text = "Listar Empleados"
         '
         'Label3
         '

@@ -30,10 +30,7 @@ C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
-C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form1.resources
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form2.resources
-C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form3.resources
-C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form4.resources
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
 C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
@@ -62,4 +59,77 @@ C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.vbproj.CopyComp
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.exe
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.xml
 C:\Users\Alexis M\Documents\proFinal\WindowsApp3\obj\Debug\Vista.pdb
-C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form5.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmBienvenida.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmRegistro.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmListado.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmModificar.resources
+C:\Users\Mati\source\repos\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmDelMod.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe.config
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.pdb
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.xml
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.dll
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.pdb
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.xml
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmBienvenida.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form2.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmDelMod.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmRegistro.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmListado.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmModificar.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.exe
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.xml
+C:\Users\Rodrigo\Downloads\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe.config
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.dll
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmBienvenida.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Form2.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmDelMod.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmRegistro.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmListado.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmModificar.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.exe
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe.config
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.exe
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Vista.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.dll
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.dll
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\bin\Debug\Acceso a Datos.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbprojAssemblyReference.cache
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmBienvenida.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmDelMod.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmRegistro.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmListado.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmModificar.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.Resources.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.GenerateResource.cache
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.vbproj.CopyComplete
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.exe
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\WindowsApp3\obj\Debug\Vista.frmAddList.resources

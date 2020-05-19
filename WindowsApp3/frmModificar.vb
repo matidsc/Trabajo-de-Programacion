@@ -1,16 +1,107 @@
 ﻿Imports Logica
 
-Public Class Form3
+Public Class frmModificar
 
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        CargarCombos()
+    Private cedula As String
+    Private cedulaModificar As String
+
+    Public Sub darCedula(cedula As String)
+
+        Dim log As New Metodos
+
+        If log.darCed(cedula, txtPrimerNombre.Text, txtSegundoNombre.Text, txtPrimerApellido.Text, txtSegundoApellido.Text, txtSueldo.Text, txtIncentivo.Text, txtCantHoras.Text, txtPrecioHora.Text, txtGerente.Text) = "Administrativo" Then
+
+            txtIncentivo.Visible = True
+            pnlAdmin.Visible = True
+            lblAdmin.Visible = True
+
+            lblPrecioHora.Visible = False
+            lblCantHoras.Visible = False
+            txtCantHoras.Visible = False
+            pnlCantHoras.Visible = False
+            txtPrecioHora.Visible = False
+            pnlPrecioHora.Visible = False
+
+            lblGerente.Visible = False
+            txtGerente.Visible = False
+            pnlGerente.Visible = False
+            txtIncentivo.Focus()
+
+            cboTipo.SelectedIndex = 1
+            Me.cedula = cedula
+
+        ElseIf log.darCed(cedula, txtPrimerNombre.Text, txtSegundoNombre.Text, txtPrimerApellido.Text, txtSegundoApellido.Text, txtSueldo.Text, txtIncentivo.Text, txtCantHoras.Text, txtPrecioHora.Text, txtGerente.Text) = "Operario" Then
+
+            lblPrecioHora.Visible = True
+            lblCantHoras.Visible = True
+            txtCantHoras.Visible = True
+            pnlCantHoras.Visible = True
+            txtPrecioHora.Visible = True
+            pnlPrecioHora.Visible = True
+
+            txtIncentivo.Visible = False
+            pnlAdmin.Visible = False
+            lblAdmin.Visible = False
+
+            lblGerente.Visible = False
+            txtGerente.Visible = False
+            pnlGerente.Visible = False
+            txtCantHoras.Focus()
+
+            cboTipo.SelectedIndex = 2
+            Me.cedula = cedula
+
+        ElseIf log.darCed(cedula, txtPrimerNombre.Text, txtSegundoNombre.Text, txtPrimerApellido.Text, txtSegundoApellido.Text, txtSueldo.Text, txtIncentivo.Text, txtCantHoras.Text, txtPrecioHora.Text, txtGerente.Text) = "Gerente" Then
+
+            lblGerente.Visible = True
+            txtGerente.Visible = True
+            pnlGerente.Visible = True
+
+            txtIncentivo.Visible = False
+            pnlAdmin.Visible = False
+            lblAdmin.Visible = False
+
+            lblPrecioHora.Visible = False
+            lblCantHoras.Visible = False
+            txtCantHoras.Visible = False
+            pnlCantHoras.Visible = False
+            txtPrecioHora.Visible = False
+            pnlPrecioHora.Visible = False
+            txtGerente.Focus()
+
+            cboTipo.SelectedIndex = 3
+            Me.cedula = cedula
+
+        End If
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
         Me.Close()
+
     End Sub
 
-    Private Sub CargarCombos()
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+        Me.WindowState = WindowState.Minimized
+
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
+        Me.Close()
+        frmListado.Visible = True
+
+    End Sub
+
+    Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        CargarCombos()
+
+    End Sub
+    Private Sub cargarCombos()
+
         Dim met As New Metodos
 
         cboTipo.DataSource = met.getTipoEmp()
@@ -21,13 +112,15 @@ Public Class Form3
         cboTipo.SelectedIndex = 0
 
     End Sub
-    Private Sub cboTipoEmpleado_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTipo.SelectedIndexChanged
+
+    Private Sub cboTipo_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboTipo.SelectedIndexChanged
 
         If cboTipo.ValueMember <> "" Then
 
             Dim tipo As Integer = cboTipo.SelectedValue
 
             Select Case tipo
+
                 Case 0
                     lblPrecioHora.Visible = False
                     lblCantHoras.Visible = False
@@ -46,11 +139,9 @@ Public Class Form3
 
                 Case 1
 
-
                     txtIncentivo.Visible = True
                     pnlAdmin.Visible = True
                     lblAdmin.Visible = True
-
 
                     lblPrecioHora.Visible = False
                     lblCantHoras.Visible = False
@@ -58,8 +149,6 @@ Public Class Form3
                     pnlCantHoras.Visible = False
                     txtPrecioHora.Visible = False
                     pnlPrecioHora.Visible = False
-
-
 
                     lblGerente.Visible = False
                     txtGerente.Visible = False
@@ -79,7 +168,6 @@ Public Class Form3
                     pnlAdmin.Visible = False
                     lblAdmin.Visible = False
 
-
                     lblGerente.Visible = False
                     txtGerente.Visible = False
                     pnlGerente.Visible = False
@@ -87,16 +175,13 @@ Public Class Form3
 
                 Case 3
 
-
                     lblGerente.Visible = True
                     txtGerente.Visible = True
                     pnlGerente.Visible = True
 
-
                     txtIncentivo.Visible = False
                     pnlAdmin.Visible = False
                     lblAdmin.Visible = False
-
 
                     lblPrecioHora.Visible = False
                     lblCantHoras.Visible = False
@@ -112,32 +197,13 @@ Public Class Form3
 
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
-
-        Me.Close()
-        Form2.Visible = True
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.WindowState = WindowState.Minimized
-    End Sub
-
-
-
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
         Dim log As New Verificiaciones
         Dim guardar As Boolean = False
 
+
         Try
-
-            If log.verificar_cedula(txtCedula.Text) = False Or log.verificar_digito(txtCedula.Text) = False Then
-
-                MsgBox("Cédula incorrecta o vacía")
-                Exit Try
-
-            End If
-
             If log.verificar_string(txtPrimerNombre.Text) = False Then
 
                 MsgBox("Nombre incorrecto o vacío")
@@ -180,7 +246,6 @@ Public Class Form3
 
             End If
 
-
             Select Case cboTipo.SelectedValue
 
                 Case 1
@@ -214,24 +279,23 @@ Public Class Form3
             End Select
 
             If guardar = True Then
-                agregar_empleado()
+                modificar_empleado()
             End If
 
         Catch ex As Exception
             MsgBox("Error al ingresar empleado " & ex.Message)
         End Try
-
     End Sub
 
-    Private Sub agregar_empleado()
-
+    Private Sub modificar_empleado()
+        Dim met As New Metodos
         Select Case cboTipo.SelectedValue
 
             Case 1
 
                 Dim adm As New Administrativo
 
-                adm._cedula = txtCedula.Text
+                adm._cedula = Me.cedula
                 adm._primer_nombre = txtPrimerNombre.Text.ToUpper
                 adm._segundo_nombre = txtSegundoNombre.Text.ToUpper
                 adm._primer_apellido = txtPrimerApellido.Text.ToUpper
@@ -240,15 +304,17 @@ Public Class Form3
                 adm._incentivo = Double.Parse(txtIncentivo.Text)
                 adm.Sueldo()
 
-                If adm.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
+                If adm.modificar() Then
+                    MsgBox("Empleado modificado con éxito")
+                    Me.Close()
+                    frmListado.Visible = True
                 End If
 
             Case 2
 
                 Dim ope As New Operario
 
-                ope._cedula = txtCedula.Text
+                ope._cedula = Me.cedula
                 ope._primer_nombre = txtPrimerNombre.Text.ToUpper
                 ope._segundo_nombre = txtSegundoNombre.Text.ToUpper
                 ope._primer_apellido = txtPrimerApellido.Text.ToUpper
@@ -258,15 +324,19 @@ Public Class Form3
                 ope._precio_hora = Double.Parse(txtPrecioHora.Text)
                 ope.Sueldo()
 
-                If ope.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
+                If ope.modificar() Then
+                    MsgBox("Empleado modificado con éxito")
+
+                    Me.Close()
+                    frmListado.Visible = True
+
                 End If
 
             Case 3
 
                 Dim ger As New Gerente
 
-                ger._cedula = txtCedula.Text
+                ger._cedula = Me.cedula
                 ger._primer_nombre = txtPrimerNombre.Text.ToUpper
                 ger._segundo_nombre = txtSegundoNombre.Text.ToUpper
                 ger._primer_apellido = txtPrimerApellido.Text.ToUpper
@@ -275,11 +345,17 @@ Public Class Form3
                 ger._nivel = Byte.Parse(txtGerente.Text)
                 ger.Sueldo()
 
-                If ger.agregar() Then
-                    MsgBox("Empleado ingresado con éxito")
-                End If
+                If ger.modificar() Then
+                    MsgBox("Empleado modificado con éxito")
+
+                        Me.Close()
+                        frmListado.Visible = True
+
+
+                    End If
 
         End Select
     End Sub
+
 
 End Class

@@ -1,8 +1,9 @@
-﻿Public Class Form2
+﻿Imports Logica
+Public Class frmAddList
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Me.Close()
-        Form3.Visible = True
+        frmRegistro.Visible = True
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -11,7 +12,7 @@
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         Me.Close()
-        Form1.Visible = True
+        frmBienvenida.Visible = True
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -19,8 +20,14 @@
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        Me.Close()
-        Form4.Visible = True
+        Dim met As New Metodos
+        If met.hasEmp() = True Then
+            Me.Close()
+            frmListado.Visible = True
+        Else
+            MsgBox("No hay empleados registrados")
+        End If
+
     End Sub
 
 End Class

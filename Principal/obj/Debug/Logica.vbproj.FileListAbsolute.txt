@@ -37,3 +37,29 @@ C:\Users\Alexis M\Documents\proFinal\Principal\bin\Debug\Acceso a Datos.dll
 C:\Users\Alexis M\Documents\proFinal\Principal\bin\Debug\Acceso a Datos.pdb
 C:\Users\Alexis M\Documents\proFinal\Principal\bin\Debug\Acceso a Datos.xml
 C:\Users\Alexis M\Documents\proFinal\Principal\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Logica.dll
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Logica.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Logica.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.dll
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.pdb
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.Resources.resources
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.dll
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.xml
+C:\Users\Rodrigo\Downloads\Programacion\Trabajo-de-Programacion (1)\Trabajo-de-Programacion\Principal\obj\Debug\Logica.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Logica.dll
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Logica.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Logica.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.dll
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.pdb
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\bin\Debug\Acceso a Datos.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbprojAssemblyReference.cache
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.Resources.resources
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.GenerateResource.cache
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.vbproj.CopyComplete
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.dll
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.xml
+C:\Users\Mati\Desktop\material socioloig\Trabajo-de-Programacion\Principal\obj\Debug\Logica.pdb
